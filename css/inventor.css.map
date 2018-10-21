@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,oBAAqB;EAErB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;;AAInB,oBAAqB;EAEnB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI",
+"sources": ["../scss/inventor.scss"],
 "names": [],
 "file": "inventor.css"
 }
