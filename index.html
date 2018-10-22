@@ -8,32 +8,89 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap4-retro.min.css">
-<link rel="stylesheet" type="text/css" href="css/inventor.css">
-<link rel="stylesheet" type="text/css" href="scss/inventor.scss">
-  </head>
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap4-retro.min.css">
+    <link rel="stylesheet" type="text/css" href="css/inventor.css">
+    <link rel="stylesheet" type="text/css" href="scss/inventor.scss">
+    <link rel="stylesheet" href="css/flip_card_style.css">
+ </head>
 
   <body>
+   <button type="button" class="btn btn-danger btn-lg answer_button_style" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">#Answer</button>
+
+   <div class="pos-f-t">
+     <div class="collapse" id="navbarToggleExternalContent">
+       <div class="bg-dark p-4">
+         <div class="container">
+         <h2 class="card-title justify-content-center">Enter your Answers Below!</h2>
+         <br>
+          <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Answer one</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Answer one goes here">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Answer two</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Answer two goes here">
+              </div>
+            <div class="form-group row">
+              <div class="offset-sm-2 col-sm-10">
+                <button type="submit" class="btn btn-secondary pull-right" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+       </div>
+     </div>
+     <!-- <nav class="navbar sticky-top navbar-white bg-white">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon bg-danger">Answer</span>
+       </button>
+     </nav> -->
+   </div>
+
     <Section id="banner_intro">
-      <div class="jumbotron">
-        <div class="container"></div>
+      <div class="jumbotron bg-secondary background_styles">
+        <div class="container">
+
+          <h1 class="display-1 text-danger title_section_space ">Great Inventors</h1>
+          <h2 class="lead text-danger">Inventors that changed the world we live in.</h2>
+          <hr>
+              <h2 class="lead text-danger">How to Play!</h2>
+              <br>
+              <h6 class=""> 1) All you need to do is flip the cards and find the right Inventor.</h6>
+
+              <h6 class=""> 2) Click the top right button Answer to put your answer </h6>
+
+        </div>
       </div>
     </Section> <!-- banner_intro section end -->
 
     <Section id="card_inventor_container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+
+          </div>
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+
+          </div>
         </div>
       </div>
     </Section>
+    <!-- end of card_inventor_container -->
 
     <Section id="detail_inventor_card_container">
       <div class="container">
@@ -61,32 +118,12 @@
     <Section id="footer_container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-12"></div>
+          <div class="col-lg-12">
+
+          </div>
         </div>
       </div>
     </Section>
-<!-- <div class="jumbotron bg-secondary text-center text-danger mb-0 radius-0">
-  <div class="container">
-    <div class="ht-tm-header">
-      <h1 class="display-1 display-xxl text-uppercase">Retro</h1>
-      <span class="lead">This is a starter template with a jumbotron</span>
-
-      <div class="mt-4">
-        <a href="#!"
-           class="btn btn-danger btn-lg m-2 text-secondary btn-ht-dl-message">
-          <span>A Button</span>
-        </a>
-
-        <a href="#!"
-           target="_blank"
-           class="btn btn-danger text-secondary btn-lg m-2">
-          <span>Another Button</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</div> -->
-<!-- End of Jumbotron  -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
