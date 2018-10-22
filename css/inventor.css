@@ -1,3 +1,6 @@
+body {
+  min-height: 1200px; }
+
 .section_space_style {
   margin-top: 7rem;
   margin-bottom: 5rem; }
