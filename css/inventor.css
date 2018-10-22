@@ -12,7 +12,7 @@
 .answer_button_style {
   position: fixed;
   top: 5px;
-  left: 0;
+  right: 0;
   border-radius: 0px;
   z-index: 5000000000000; }
 
