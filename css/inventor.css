@@ -5,6 +5,10 @@ body {
   margin-top: 7rem;
   margin-bottom: 5rem; }
 
+.padding_iconstyle_front {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
 .title_section_space {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -18,5 +22,12 @@ body {
   right: 0;
   border-radius: 0px;
   z-index: 50000000000000000; }
+
+.thumnbnail_css_inventor {
+  background-size: cover;
+  background-image: url(../img/atari-inventor.jpg);
+  margin-bottom: auto;
+  height: 9rem;
+  width: 100%; }
 
 /*# sourceMappingURL=inventor.css.map */
