@@ -5,9 +5,9 @@ body {
   margin-top: 7rem;
   margin-bottom: 5rem; }
 
-.padding_iconstyle_front {
-  padding-top: 5rem;
-  padding-bottom: 5rem; }
+.flip-card-front .padding_iconstyle_front {
+  padding-top: 9rem;
+  margin-bottom: 9rem; }
 
 .title_section_space {
   margin-top: 3rem;
@@ -18,7 +18,7 @@ body {
 
 .answer_button_style {
   position: fixed;
-  top: 5px;
+  top: 0px;
   right: 0;
   border-radius: 0px;
   z-index: 50000000000000000; }
@@ -26,7 +26,7 @@ body {
 .thumnbnail_css_inventor {
   background-size: cover;
   background-image: url(../img/atari-inventor.jpg);
-  height: 9rem;
+  height: 12rem;
   width: 100%; }
 
 /*# sourceMappingURL=inventor.css.map */
