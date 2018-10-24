@@ -23,6 +23,12 @@ body {
   border-radius: 0px;
   z-index: 50000000000000000; }
 
+.memory_card_margin {
+  margin-bottom: 30rem; }
+
+.card_margin {
+  margin-bottom: 30rem; }
+
 .thumnbnail_css_inventor {
   background-size: cover;
   background-image: url(../img/atari-inventor.jpg);
